@@ -1,0 +1,37 @@
+/*
+* foundation
+*/
+@use "foundation/_reset";
+@use "foundation/_base";
+
+/*
+* layout
+*/
+@use "layout/_header";
+@use "layout/_main";
+@use "layout/_footer";
+
+/*
+* object
+*/
+
+// Component
+@use "component/_button";
+@use "component/_line";
+@use "component/_small_title";
+@use "component/_fadein";
+
+
+// Project
+@use 'project/_sp_header';
+@use 'project/_sp_main';
+@use 'project/_sp_footer';
+@use 'project/_tablet_header';
+@use 'project/_tablet_main';
+@use 'project/_tablet_footer';
+
+
+// Utility
+
+
+

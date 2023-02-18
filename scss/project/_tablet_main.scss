@@ -1,0 +1,199 @@
+@media (min-width: 481px) and (max-width: 768px) {
+    #l-main {
+    
+        .section__container--about {
+            .section__inner--about {
+                width: 90%;
+    
+                .bg__box--about {
+                    position: absolute;
+                    content: '';
+                    top: 0;
+                    left: 2rem;
+                    background: #fff;
+                    height: 300px;
+                    width: 100px;
+                    z-index: 1;
+                }
+    
+                .section__text {
+                    width: 40%;
+                    padding-left: 0;
+                }
+    
+                .section__img {
+                    width: 50%;
+                    margin: 0 0 0 auto;
+                    text-align: right;
+    
+                    .img__about--1 {
+                        width: 100%;
+                        height: 40%;
+                        object-fit: cover;
+                        margin-bottom: 1rem;
+                    }
+    
+                    .img__about--2 {
+                        width: 50%;
+                        height: 30%;
+                        object-fit: cover;
+    
+                    }
+                }
+    
+    
+            }
+            
+        }
+
+        .section__container--company {
+    
+            .section__inner--company {
+                width: 90%;
+                justify-content: space-between;
+    
+                .bg__box--company {
+                    position: absolute;
+                    content: '';
+                    top: 4rem;
+                    right: 8rem;
+                    background: #F5F5F9;
+                    height: 150px;
+                    width: 180px;
+                    z-index: 1;
+                }
+    
+    
+                .section__text {
+                    padding: 0;
+                    width: 40%;
+    
+                }
+    
+                .section__img {
+                    width: 50%;
+    
+                    .img__company--1 {
+                        width: 43%;
+                        height: 250px;
+                        object-fit: cover;
+                        margin-bottom: 1rem;
+                    }
+    
+                    .img__company--2 {
+                        width: 52%;
+                        height: 50%;
+                        object-fit: cover;
+    
+                    }
+                }
+            }
+            
+        }
+
+        .section__container--works {
+    
+            .section__inner--works {
+                width: 90%;
+
+    
+                .bg__box--works {
+                    position: absolute;
+                    content: '';
+                    top: 1rem;
+                    left: 2rem;
+                    background: #fff;
+                    height: 120px;
+                    width: 90px;
+                    z-index: 1;
+                }
+    
+    
+                .section__text {
+                    padding: 0;
+                    width: 40%;
+    
+
+                }
+
+            }
+            
+        }
+
+        .section__container--contact {
+            background-image: url(../../image/top_img11.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            padding: 5rem 0;
+    
+            .section__inner--contact {
+                margin: 0 auto;
+                width: 90%;
+                position: relative;
+                
+                
+                .section__text {
+    
+                    .bg__box--contact {
+                        position: absolute;
+                        content: '';
+                        top: -3px;
+                        right: -60px;
+                        background: #C6C6D5;
+                        height: 70px;
+                        width: 70px;
+                        z-index: 1;
+                    }
+                    
+                }
+    
+                .text__main {
+                    display: flex;
+                    justify-content: space-between;
+                    width: 100%;
+    
+                    .text__main--left {
+                        width: 50%;
+                        table {
+                            margin-bottom: 2rem;
+                            tbody {
+                                tr {
+                                   td {
+                                    padding: 0 2rem 1rem 0;
+                                    line-height: 1.2rem;
+                                   }
+                                }
+                            }
+                        }
+    
+                        .text__desc--contact {
+                            line-height: 1.1rem;
+                            margin-bottom: 1rem;
+                        }
+                    }
+    
+                    .text__main--right {
+                        width: 40%;
+                        text-align: center;
+    
+                        .text__desc--contact {
+                            line-height: 1.1rem;
+                            margin-bottom: 1rem;
+                        }
+                    }
+    
+    
+    
+                }
+            }
+    
+        }
+
+        
+    
+        
+    }
+    
+}
+

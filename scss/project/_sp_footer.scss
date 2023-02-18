@@ -1,0 +1,57 @@
+@media screen and (max-width: 480px) {
+
+    #l-footer {
+        .footer__container {
+            width: 90%;
+
+            .footer__logo {
+                h3 {
+                    font-size: 18px;
+                }
+            }
+    
+            .footer__main {
+                display: block;
+    
+                .footer__main--left {
+                    p {
+                        margin-bottom: 1rem;
+                        font-size: 12px;
+                    }
+                }
+    
+                .footer__main--center {
+                    margin: 2rem 0;
+                    table {
+                        margin-bottom: 2rem;
+                        tbody {
+                            tr {
+                               td {
+                                padding: 0 3rem 0 0;
+                                line-height: 1.2rem;
+                                font-size: 10px;
+                               }
+                               .td__ttl {
+                                font-size: 8px;
+                               }
+                            }
+                        }
+                    }
+                }
+    
+                .footer__main--right {
+                    ul {
+                        display: flex;
+                        li {
+                            margin-right: 1rem;
+                            a {
+                                font-size: 10px;
+                            }
+                        }
+                    }
+                }
+                
+            }
+        }
+    }
+}

@@ -1,0 +1,20 @@
+
+html {
+    -webkit-text-size-adjust: 100%; 
+    -ms-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased; 
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    height: 100%;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, a, li, button, table, tbody, thead, tr, td {
+    color: #fff;
+    font-family: "ヒラギノ角ゴ ProN W3", "ヒラギノ明朝 ProN W6", "sans-serif";
+    letter-spacing: 1.5px;
+    font-size: 12px;
+}
+
+a, button {
+    cursor: pointer;
+}

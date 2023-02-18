@@ -1,0 +1,164 @@
+@media (min-width: 481px) and (max-width: 768px) {
+    .hamburger__html--active {
+        overflow: hidden;
+    }
+
+    #l-header {
+        .l-header__container {
+            height: 550px;
+
+            .l-header__top {
+                padding-top: 1rem;
+
+                .l-header__logo {
+                    font-size: 28px;
+                }
+
+                .l-header__nav {
+                    text-align: right;
+                    position: relative;
+                    width: 160px;
+
+                    .nav__menu {
+                        display: none;
+                    }
+
+                    .nav__button--sp {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+
+                        .nav__hamburger {
+                            position: relative;
+                            cursor: pointer;
+                            width: 50px;
+                            height:50px;
+                            border-radius: 5px;
+
+                            span {
+                                display: inline-block;
+                                transition: all .4s;
+                                position: absolute;
+                                left: 14px;
+                                height: 3px;
+                                border-radius: 2px;
+                                background: #fff;
+                                width: 45%;
+
+                                &:nth-of-type(1) {
+                                    top:15px;	
+                                }
+
+                                &:nth-of-type(2) {
+                                    top:23px;
+                                }
+
+                                &:nth-of-type(3) {
+                                    top:31px;
+                                }
+
+                                
+
+
+                            }
+
+
+                        }
+
+                        .hamburger__btn--active {
+                            z-index: 9999;
+                            position: relative;
+
+                            span {
+                                background-color: #000;
+
+                                &:nth-of-type(1) {
+                                    top: 18px;
+                                    left: 18px;
+                                    transform: translateY(6px) rotate(-45deg);
+                                    width: 30%;
+                                }
+
+                                &:nth-of-type(2) {
+                                    opacity: 0;/*真ん中の線は透過*/
+                                }
+
+                                &:nth-of-type(3) {
+                                    top: 30px;
+                                    left: 18px;
+                                    transform: translateY(-6px) rotate(45deg);
+                                    width: 30%;
+                                }
+                            }
+                        }
+    
+                    }
+
+                    .nav__menu--sp {
+                        text-align: left;
+                        position: absolute;
+                        background-color: #fff;
+                        display: none;
+
+                        padding: 2rem;
+                        
+                        
+                        li {
+                            margin: 2em 0;
+                            font-size: 16px;
+                            a {
+
+                                color: #000;
+                            }
+                        }
+                    }
+
+                    .hamburger__menu--active {
+                        display: block;
+                        top: -1rem;
+                        right: -3rem;
+                        height: 800px;
+                        width: 14rem;
+
+                    }
+
+
+
+                    }
+                }
+
+
+            .l-header__information {
+                width: 330px;
+                margin: 0 auto;
+                padding-bottom: 0.5rem;
+                
+                
+                .information__left p {
+                    font-size: 10px;
+                }
+
+                .information__center span {
+                    font-size: 10px;
+                }
+
+                .information__center p {
+                    font-size: 14px;
+                }
+
+                .information__right a {
+                    font-size: 10px;
+                }
+
+                .information__right a .fa-chevron-right {
+                    margin-left: 0.3rem;
+                    font-size: 10px;
+                }
+
+            }
+
+
+        }
+    }
+
+}

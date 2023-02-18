@@ -1,0 +1,260 @@
+@keyframes headerBgSlider {
+    0% { 
+        opacity: 1;
+        background-image: url(../../image/top_img1.jpg);
+    }
+
+    20% {
+        opacity: 1;
+        background-image: url(../../image/top_img1.jpg);
+    }
+   
+    33% {
+        opacity: 1;
+        background-image: url(../../image/top_img2.jpg);
+    }
+
+    53% {
+        opacity: 1;
+        background-image: url(../../image/top_img2.jpg);
+    }
+
+    66% {
+        opacity: 1;
+        background-image: url(../../image/top_img3.jpg);
+    }
+
+    87% {
+        opacity: 1;
+        background-image: url(../../image/top_img3.jpg);
+    }
+
+    100% {
+        opacity: 1;
+        background-image: url(../../image/top_img1.jpg);
+    }
+
+    
+
+}
+
+
+
+#l-header {
+    
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    animation-name: headerBgSlider;
+    animation-duration: 15s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    background-color: #000;
+
+
+}
+
+
+#l-main {
+    .section__container--about {
+        .section__inner--about {
+            .text__fadeIn {
+                transform: translate(0, 0);
+                opacity: 1;
+            }
+
+            @keyframes boxAboutFadeInAnimation {
+                0% {
+                    top: -5rem;
+                    left: 0;
+                    opacity: 0;
+                    width: 20px;
+                    height: 20px;
+                }
+
+                50% {
+                    top: 0;
+                    left: 0;
+                    opacity: 1;
+                    width: 20px;
+                    height: 20px;
+                }
+
+                70% {
+                    top: 0;
+                    left: 0;
+                    opacity: 1;
+                    width: 120px;
+                    height: 20px;
+                }
+
+                100% {
+                    top: 0;
+                    left: 0;
+                    width: 120px;
+                    height: 380px;
+                    opacity: 1;
+                }
+            }
+
+            
+            .box__fadeIn {
+                animation-name: boxAboutFadeInAnimation;
+                animation-duration: 2.5s;
+                animation-timing-function: ease;
+                animation-fill-mode: forwards;
+            }
+            
+        }
+    }
+
+    .section__container--company {
+        .section__inner--company {
+
+            .text__fadeIn {
+                transform: translate(0, 0);
+                opacity: 1;
+            }
+
+            @keyframes boxCompanyFadeInAnimation {
+                0% {
+                    top: -7rem;
+                    right: 0;
+                    width: 20px;
+                    height: 20px;
+                    opacity: 1;
+                }
+
+                40% {
+                    top: 5rem;
+                    right: 0;
+                    width: 20px;
+                    height: 20px;
+                }
+
+                70% {
+                    top: 5rem;
+                    right: 0;
+                    width: 20px;
+                    height: 200px;
+                }
+
+                100% {
+                    top: 5rem;
+                    right: 0;
+                    width: 230px;
+                    height: 200px;
+                    opacity: 1;
+
+                }   
+            }
+
+            .box__fadeIn {
+                animation-name: boxCompanyFadeInAnimation;
+                animation-duration: 2s;
+                animation-timing-function: ease;
+                animation-fill-mode: forwards;
+            }
+        }
+    }
+
+    .section__container--works {
+        .section__inner--works {
+            .text__fadeIn {
+                transform: translate(0, 0);
+                opacity: 1;
+            }
+
+            @keyframes boxWorksFadeInAnimation {
+                0% {
+                    top: -7rem;
+                    left: 0;
+                    width: 20px;
+                    height: 20px;
+                    opacity: 1;
+                }
+
+                40% {
+                    top: 5rem;
+                    left: 0;
+                    width: 20px;
+                    height: 20px;
+                }
+
+
+                100% {
+                    top: 5rem;
+                    left: 0;
+                    width: 160px;
+                    height: 180px;
+                    opacity: 1;
+
+                }   
+            }
+
+            .box__fadeIn {
+                animation-name: boxWorksFadeInAnimation;
+                animation-duration: 2s;
+                animation-timing-function: ease;
+                animation-fill-mode: forwards;
+            }
+            
+        }
+    }
+
+    .section__container--contact {
+        .section__inner--contact {
+            .section__text--contact {
+               .text__fadeIn {
+                    transform: translate(0, 0);
+                    opacity: 1;
+                }
+
+                @keyframes boxContactFadeInAnimation {
+                    0% {
+                        top: -7rem;
+                        right: -60px;
+                        width: 20px;
+                        height: 20px;
+                        opacity: 1;
+                    }
+    
+                    40% {
+                        top: -3px;
+                        right: -60px;
+                        width: 20px;
+                        height: 20px;
+                    }
+    
+                    100% {
+                        top: -3px;
+                        right: -60px;
+                        width: 70px;
+                        height: 70px;
+                        opacity: 1;
+    
+                    }   
+                }
+    
+                .box__fadeIn {
+                    animation-name: boxContactFadeInAnimation;
+                    animation-duration: 1.5s;
+                    animation-timing-function: ease;
+                    animation-fill-mode: forwards;
+                }
+            }
+
+            
+            .text__fadeIn {
+                    transform: translate(0, 0);
+                    opacity: 1;
+                
+            }
+
+            
+
+            
+            
+        }
+    }
+}  

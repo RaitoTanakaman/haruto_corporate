@@ -1,0 +1,189 @@
+@media screen and (max-width: 480px) {
+    
+    #l-main {
+        .section__container--about {
+    
+            .section__inner--about {
+                display: block;
+
+                .bg__box--about {
+                    height: 130px;
+                }
+
+                .section__text {
+                    width: 100%;
+                    padding: 0;
+                    margin: 0;
+
+                    h2 {
+                        text-align: center;
+                    }
+                }
+
+                .section__img {
+                    width: 100%;
+                    margin-top: 2rem;
+                    position: relative;
+                    z-index: 2;
+
+                    .img__about--2 {
+                        width: 100%;
+                    }
+                }
+            }   
+        }
+    
+        .section__container--company {
+            .section__inner--company {
+                margin: 0 auto;
+                width: 90%;
+                display: block;
+                
+    
+                .bg__box--company {
+                    position: absolute;
+                    content: '';
+                    top: 6rem;
+                    left: -2rem;
+                    background: #F5F5F9;
+                    height: 150px;
+                    width: 180px;
+                    z-index: 1;
+                }
+    
+    
+                .section__text {
+                    padding: 0;
+                    width: 100%;
+    
+                    h2 {
+                        text-align: center;
+                    }
+                }
+    
+                .section__img {
+                    width: 100%;
+                    margin-top: 2rem;
+                    display: block;
+
+                    .img__company--1 {
+                        width: 100%;
+                    }
+
+                    .img__company--2 {
+                        width: 100%;
+                    }
+
+                }
+            }
+            
+        }
+    
+        .section__container--works {
+    
+            .section__inner--works {
+                margin: 0 auto;
+                width: 90%;
+                display: block;
+                .bg__box--works {
+                    position: absolute;
+                    content: '';
+                    top: -3rem;
+                    left: 2rem;
+                    height: 190px;
+                    width: 130px;
+                }
+    
+    
+                .section__text {
+                    padding: 0;
+                    width: 100%;
+    
+                    h2 {
+                       text-align: center;
+                    }
+                }
+    
+                .section__img {
+                    width: 100%;
+                    margin-top: 2rem;
+    
+                    .img__works--1 {
+                        width: 100%;
+                        
+                    }
+    
+                    .img__works--2 {
+                        width: 100%;
+    
+                    }
+    
+                    .img__works--3 {
+                        width: 100%;
+    
+                    }
+                }
+            }
+        }
+    
+        .section__container--contact {
+            .section__inner--contact {
+                width: 90%;
+        
+                .section__text {
+                    padding: 0;
+    
+                    .bg__box--contact {
+                        position: absolute;
+                        content: '';
+                        top: -1rem;
+                        right: -1rem;
+                        background: #C6C6D5;
+                        height: 40px;
+                        width: 40px;
+                        z-index: 1;
+                    }
+                    
+                }
+    
+                .text__main {
+                    display: block;
+                    width: 70%;
+                    margin: 0 auto;
+                    .text__main--left {
+                        width: 100%;
+                        table {
+                            tbody {
+                                tr {
+                                   td {
+                                    padding: 1rem 0 1rem 1rem;
+                                    line-height: 1.2rem;
+                                   }
+                                }
+                            }
+                        }
+    
+                        .text__desc--contact {
+                            text-align: center;
+                        }
+                    }
+    
+                    .text__main--right {
+                        width: 100%;
+                        text-align: center;
+    
+                        .text__desc--contact {
+                            line-height: 1.1rem;
+                            margin-bottom: 1rem;
+                        }
+                    }
+    
+    
+    
+                }
+            }
+    
+        }
+    }
+    
+}

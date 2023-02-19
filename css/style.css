@@ -648,6 +648,7 @@ a, button {
 @keyframes headerBgSlider {
   0% {
     opacity: 1;
+    width: 100%;
     background-image: url(/haruto_corporate/image/top_img1.jpg);
   }
   20% {
@@ -671,6 +672,7 @@ a, button {
     background-image: url(/haruto_corporate/image/top_img3.jpg);
   }
   100% {
+    width: 100%;
     opacity: 1;
     background-image: url(/haruto_corporate/image/top_img1.jpg);
   }
@@ -687,7 +689,6 @@ a, button {
   animation-duration: 15s;
   animation-timing-function: ease;
   animation-iteration-count: infinite;
-  background-color: #000;
 }
 
 #l-main .section__container--about .section__inner--about .text__fadeIn {

@@ -648,31 +648,31 @@ a, button {
 @keyframes headerBgSlider {
   0% {
     opacity: 1;
-    background-image: url(../haruto_corporate/image/top_img1.jpg);
+    background-image: url(/haruto_corporate/image/top_img1.jpg);
   }
   20% {
     opacity: 1;
-    background-image: url(../haruto_corporate/image/top_img1.jpg);
+    background-image: url(/haruto_corporate/image/top_img1.jpg);
   }
   33% {
     opacity: 1;
-    background-image: url(../haruto_corporate/image/top_img2.jpg);
+    background-image: url(/haruto_corporate/image/top_img2.jpg);
   }
   53% {
     opacity: 1;
-    background-image: url(../haruto_corporate/image/top_img2.jpg);
+    background-image: url(/haruto_corporate/image/top_img2.jpg);
   }
   66% {
     opacity: 1;
-    background-image: url(../haruto_corporate/image/top_img3.jpg);
+    background-image: url(/haruto_corporate/image/top_img3.jpg);
   }
   87% {
     opacity: 1;
-    background-image: url(../haruto_corporate/image/top_img3.jpg);
+    background-image: url(/haruto_corporate/image/top_img3.jpg);
   }
   100% {
     opacity: 1;
-    background-image: url(../haruto_corporate/image/top_img1.jpg);
+    background-image: url(/haruto_corporate/image/top_img1.jpg);
   }
 }
 #l-header {

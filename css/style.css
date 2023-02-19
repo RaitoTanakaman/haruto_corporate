@@ -112,10 +112,6 @@ a, button {
   cursor: pointer;
 }
 
-#l-header {
-  width: 100%;
-  height: auto;
-}
 #l-header .l-header__container {
   width: 90%;
   height: 680px;
@@ -680,6 +676,9 @@ a, button {
   }
 }
 #l-header {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
   background-position: center;
   background-repeat: none;
   background-size: cover;

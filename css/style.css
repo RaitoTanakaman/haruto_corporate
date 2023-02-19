@@ -678,6 +678,7 @@ a, button {
 #l-header {
   width: 100%;
   max-width: 100%;
+  box-sizing: border-box;
   height: auto;
   background-position: center;
   background-repeat: none;

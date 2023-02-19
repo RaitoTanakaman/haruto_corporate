@@ -1319,11 +1319,11 @@ a, button {
     width: 40%;
   }
   #l-main .section__container--contact {
-    background-image: url(https://github.com/RaitoTanakaman/haruto_corporate/blob/main/image/top_img11.jpg?raw=true);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     padding: 5rem 0;
+    background-image: url(/haruto_corporate/image/top_img11.jpg);
   }
   #l-main .section__container--contact .section__inner--contact {
     margin: 0 auto;

@@ -162,7 +162,7 @@ a, button {
 
 #l-main .section__container--about {
   background-color: #F5F5F9;
-  padding: 5rem 0;
+  padding: 8rem 0;
 }
 #l-main .section__container--about .section__inner--about {
   margin: 0 auto;
@@ -227,7 +227,7 @@ a, button {
 }
 #l-main .section__container--company {
   background-color: #fff;
-  padding: 5rem 0;
+  padding: 8rem 0;
 }
 #l-main .section__container--company .section__inner--company {
   margin: 0 auto;
@@ -291,7 +291,7 @@ a, button {
 }
 #l-main .section__container--works {
   background-color: #F5F5F9;
-  padding: 5rem 0;
+  padding: 8rem 0;
 }
 #l-main .section__container--works .section__inner--works {
   margin: 0 auto;
@@ -359,11 +359,11 @@ a, button {
   margin: 0 0 0 auto;
 }
 #l-main .section__container--contact {
-  background-image: url(image/top_img11.jpg);
+  background-image: url(../haruto_corporate/image/top_img11.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 5rem 0;
+  padding: 8rem 0;
 }
 #l-main .section__container--contact .section__inner--contact {
   margin: 0 auto;
@@ -648,31 +648,31 @@ a, button {
 @keyframes headerBgSlider {
   0% {
     opacity: 1;
-    background-image: url(/haruto_corporate/image/top_img1.jpg);
+    background-image: url(../haruto_corporate/image/top_img1.jpg);
   }
   20% {
     opacity: 1;
-    background-image: url(/haruto_corporate/image/top_img1.jpg);
+    background-image: url(../haruto_corporate/image/top_img1.jpg);
   }
   33% {
     opacity: 1;
-    background-image: url(/haruto_corporate/image/top_img2.jpg);
+    background-image: url(../haruto_corporate/image/top_img2.jpg);
   }
   53% {
     opacity: 1;
-    background-image: url(/haruto_corporate/image/top_img2.jpg);
+    background-image: url(../haruto_corporate/image/top_img2.jpg);
   }
   66% {
     opacity: 1;
-    background-image: url(/haruto_corporate/image/top_img3.jpg);
+    background-image: url(../haruto_corporate/image/top_img3.jpg);
   }
   87% {
     opacity: 1;
-    background-image: url(/haruto_corporate/image/top_img3.jpg);
+    background-image: url(../haruto_corporate/image/top_img3.jpg);
   }
   100% {
     opacity: 1;
-    background-image: url(/haruto_corporate/image/top_img1.jpg);
+    background-image: url(../haruto_corporate/image/top_img1.jpg);
   }
 }
 #l-header {
@@ -1319,11 +1319,11 @@ a, button {
     width: 40%;
   }
   #l-main .section__container--contact {
+    background-image: url(../../image/top_img11.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     padding: 5rem 0;
-    background-image: url(/haruto_corporate/image/top_img11.jpg);
   }
   #l-main .section__container--contact .section__inner--contact {
     margin: 0 auto;
